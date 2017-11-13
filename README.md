@@ -3,6 +3,8 @@
 # Python
 http://librosweb.es/libro/python/
 #
+https://automatetheboringstuff.com/
+#
 Expresiones regulares:
 #
 https://blog.soporteti.net/chuleta-de-expresiones-regulares/
