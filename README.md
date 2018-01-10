@@ -12,3 +12,4 @@ https://blog.soporteti.net/chuleta-de-expresiones-regulares/
 http://w3.unpocodetodo.info/utiles/regex.php
 
 estudiantes.json:https://goo.gl/D14iD3
+valores.csv:https://raw.githubusercontent.com/bigdatavigo/recursos/master/valores.csv
