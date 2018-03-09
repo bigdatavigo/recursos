@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Cuadro de mandos con plot.ly</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+<h1>Ventas Mundiales</h1>
+<div id="miGrafica"></div>
+
+	
+<script>
+	 var datos = [
+	{
+    x: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+    y: [1720520.9700000174,
+ 2378297.8800000306,
+ 3914475.2850000644,
+ 3906665.28000006,
+ 4209343.425000064,
+ 3587699.7975000544,
+ 2816684.167500044,
+ 2696696.152500041,
+ 2378303.4975000327,
+ 2152262.857500026,
+ 1849654.6950000268,
+ 2505611.9025000846],
+    type: 'bar',
+	name: 'Canada'
+	},
+		{
+    x: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+    y: [5383985.439999993,
+ 7712296.390000135,
+ 18909552.68000236,
+ 22003702.99000272,
+ 21490939.170002744,
+ 18817828.510002345,
+ 15470970.780001728,
+ 12298080.920000704,
+ 9379524.740000293,
+ 6428287.490000011,
+ 4945492.869999949,
+ 5650476.939999908],
+    type: 'bar',
+	name: 'Francia'
+	},
+		{
+    x: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+    y: [18365588.639993064,
+ 27255546.149990957,
+ 45684687.61504167,
+ 71447193.40509957,
+ 47498254.072528936,
+ 57695259.19496348,
+ 49976284.05003386,
+ 37927855.24501467,
+ 13295318.924995873,
+ 12052755.434997262,
+ 12336671.70749587,
+ 13333633.057492968],
+    type: 'bar',
+	name: 'Estados Unidos'
+	}
+];
+
+var layout={
+	title:"COMPARATIVA"	
+}
+
+Plotly.newPlot('miGrafica', datos, layout );
+</script>
+</body>
+</html>
