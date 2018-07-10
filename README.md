@@ -1,5 +1,5 @@
 # Listado de recursos del curso
-https://mega.nz/#F!U2AiCSjB!T1Seh64eXA3VeY-nJSPgSg+
+
 # Python
 http://librosweb.es/libro/python/
 #
