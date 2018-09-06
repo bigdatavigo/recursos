@@ -1,0 +1,11 @@
+tar -xzf spark-2.3.1-bin-hadoop2.7.tgz
+sudo mv spark-2.3.1-bin-hadoop2.7 /usr/local/spark
+sudo ln -s /usr/bin/python3 /usr/bin/python
+
+nano .bashrc
+# al final del archivo
+export HADOOP_HOME=/usr/local/hadoop
+export SPARK_HOME=/usr/local/spark
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin: $SPARK_HOME/bin
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook --ip=0.0.0.0 --no-browser'
