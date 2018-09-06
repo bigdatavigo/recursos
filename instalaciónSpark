@@ -6,6 +6,6 @@ nano .bashrc
 # al final del archivo
 export HADOOP_HOME=/usr/local/hadoop
 export SPARK_HOME=/usr/local/spark
-export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin: $SPARK_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$SPARK_HOME/bin
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook --ip=0.0.0.0 --no-browser'
