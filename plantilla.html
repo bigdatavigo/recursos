@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <title>Ejemplo de gráfica</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js">
+  </script>
+ </head>
+ <body>
+  <h1>Ejemplos</h1>
+  <div id="graf1">
+  <!-- Plotly chart will be drawn inside this DIV -->
+  </div>  
+  <script>
+    <!-- JAVASCRIPT CODE GOES HERE -->
+	var datos = {
+		x:["A","B"],
+		y:[1,2],
+		type: 'bar'
+		};
+
+	var datos=[datos];
+	var layout={title:"Ejemplo"};
+		
+	Plotly.newPlot('graf1', datos,layout);
+  </script>
+
+ </body>
+</html> 
