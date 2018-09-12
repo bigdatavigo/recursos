@@ -1,0 +1,3 @@
+wget http://launchpadlibrarian.net/277848750/python3-bs4_4.5.1-1_all.deb
+
+sudo dpkg -i python3-bs4_4.5.1-1_all.deb
