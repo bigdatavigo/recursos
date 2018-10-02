@@ -1,0 +1,40 @@
+R
+
+Instalando R:
+>sudo apt install r-base
+>sudo apt install libcurl4-openssl-dev libssl-dev
+
+Preparando R para jupyter:
+>R
+>>	install.packages('devtools')
+
+>>	devtools::install_github('IRkernel/IRkernel')
+
+>>	IRkernel::installspec()
+
+
+
+
+
+
+
+Para instalar SparkR:
+>R
+>>devtools::install_github('apache/spark@v2.2.0', subdir='R/pkg')
+devtools::install_github('apache/spark@v2.2.1', subdir='R/pkg')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
